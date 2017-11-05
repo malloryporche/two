@@ -19,7 +19,7 @@ h2 {
 
 /* Splash styling */
 header#splash {
-  background: url(../imgs/bg2.jpg);
+  background: url(../imgs/back2.jpg);
   background-size: cover;
   background-position: 50%;
   background-attachment: fixed; }
@@ -27,13 +27,11 @@ header#splash {
     font-weight: bolder; }
 
 /* Navbar styling */
-nav ul {
-  margin: 0 auto; }
-  nav ul li {
-    padding: 20px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-weight: bolder; }
+nav ul li {
+  padding: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: bolder; }
 nav a {
   text-decoration: none;
   font-size: 15px; }
