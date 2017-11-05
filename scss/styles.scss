@@ -70,10 +70,10 @@ header#splash {
   }
 }
 /* Navbar styling */
-ul.nav.navbar-nav {
-  position: absolute;
-  right: 0;
-}
+  ul.nav.navbar-nav {
+    position: absolute;
+    right: 0;
+  }
 nav {
 	ul {
 		// margin: 0 auto;
@@ -216,9 +216,10 @@ section.row {
 
 /* Bio page styling */
 section.row.parallax {
-  background: url(imgs/bg.jpg) no-repeat center center fixed;
+  background: url('../imgs/Sparkler.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding: 50px 0;
 }
