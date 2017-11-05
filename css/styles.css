@@ -10,15 +10,21 @@ body {
 body.container {
   padding: 15px; }
 
-section header {
-  background-color: #fff; }
-
 /* Typography styling */
 h3 {
   margin: 30px 0; }
 
 h2 {
   letter-spacing: 2px; }
+
+/* Splash styling */
+header#splash {
+  background: url(../imgs/bg2.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed; }
+  header#splash h1 {
+    font-weight: bolder; }
 
 /* Navbar styling */
 nav ul {
@@ -46,24 +52,19 @@ nav.navbar.navbar-light {
   background-color: #fff; }
 
 /* Header styling */
-header {
-  background: url(../imgs/bg2.jpg);
-  background-size: cover;
-  background-position: 50%;
-  background-attachment: fixed; }
-  header .row {
-    margin: 0 auto; }
-  header #splash {
-    margin: 200px 15px; }
-  header .title {
-    font-size: 94px;
-    font-weight: 800;
-    color: wheat;
-    text-align: center; }
-  header .carousel-inner h1 {
-    font-size: 54px;
-    color: white;
-    text-align: center; }
+header .row {
+  margin: 0 auto; }
+header #splash {
+  margin: 200px 15px; }
+header .title {
+  font-size: 94px;
+  font-weight: 800;
+  color: wheat;
+  text-align: center; }
+header .carousel-inner h1 {
+  font-size: 54px;
+  color: white;
+  text-align: center; }
 
 /* Portfolio Styling */
 section.row#folio {
@@ -133,6 +134,6 @@ footer {
 
 /* Section styling */
 section.row {
-  margin: 175px 15px; }
+  margin: 225px 15px; }
 
 /*# sourceMappingURL=styles.css.map */
