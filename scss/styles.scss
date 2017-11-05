@@ -6,6 +6,7 @@ body {
 	margin: 0;
 	overflow-x: hidden;
   background-color: white;
+  text-align: center;
 }
 body.container {
 	padding: 15px;
@@ -14,23 +15,65 @@ body.container {
 // h1 {
 //   font-size: 3.5em;
 // }
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+a.link {
+  text-transform: uppercase;
+  border: 3px solid white;
+  color: gray;
+  padding: 20px;
+  text-align: center;
+  display: block;
+  margin: 40px auto;
+  letter-spacing: 2px;
+  &:hover {
+    border: 3px solid black;
+    color: black;
+    text-decoration: none;
+  }
+}
+a.chevron {
+  i {
+    display: block;
+    text-align: center;
+  }
+  margin: 0 auto;
+}
 h3 {
   margin: 30px 0;
 }
 h2 {
-	letter-spacing: 2px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: center;
+  + h6 {
+    text-align: center;
+    color: grey;
+  }
 }
 /* Splash styling */
 header#splash {
-  background: url(../imgs/back2.jpg);
+  background: url(../imgs/back-3.jpg) no-repeat bottom left fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-backrgound-size: cover;
   background-size: cover;
-  background-position: 50%;
-  background-attachment: fixed;
+
   h1 {
     font-weight: bolder;
   }
 }
 /* Navbar styling */
+ul.nav.navbar-nav {
+  position: absolute;
+  right: 0;
+}
 nav {
 	ul {
 		// margin: 0 auto;
@@ -39,6 +82,9 @@ nav {
 			text-transform: uppercase;
 			letter-spacing: 4px;
 			font-weight: bolder;
+      &:last-of-type {
+        padding-right: 0;
+      }
 		}
 	}
   a {
@@ -57,7 +103,7 @@ nav {
   }
 }
 nav.navbar.navbar-light {
-	margin: 20px 10px;
+	margin: 20px 0;
   padding: 40px 0px 20px 0;
   background-color: #fff;
 }
@@ -163,4 +209,16 @@ footer {
 /* Section styling */
 section.row {
   margin: 225px 15px;
+}
+
+
+
+
+/* Bio page styling */
+section.row.parallax {
+  background: url(imgs/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
